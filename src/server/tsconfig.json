@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "outDir": "../../app",
+        "baseUrl": "./src/server"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

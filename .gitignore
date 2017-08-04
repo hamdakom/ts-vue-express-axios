@@ -1,0 +1,8 @@
+# Dependency directories
+node_modules
+
+# Application directories
+app
+
+# VSCode Config directories
+.vscode
