@@ -9,8 +9,8 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import axios from "axios";
+import Vue from 'vue';
+import axios from 'axios';
 
 export default Vue.extend({
   data() {
@@ -20,7 +20,7 @@ export default Vue.extend({
     }
   },
   created() {
-    const api = '/api';
+    const api = '/api/halo';
     axios.get(api).then(response => {
       this.data = response.data
     }).catch(error => {
@@ -30,6 +30,3 @@ export default Vue.extend({
   }
 });
 </script>
-
-<style>
-</style>
